@@ -1,45 +1,80 @@
-Comment utiliser cette ressource
-Installation
+# 🛒 sell_shops - Ressource FiveM ESX
 
-Créez un dossier nommé shops_vendeur dans votre dossier resources
-Copiez tous les fichiers fournis ci-dessus dans ce dossier
-Téléchargez RageUI et placez-le dans le dossier shops_vendeur
-Assurez-vous d'avoir créé un dossier data dans shops_vendeur
-Ajoutez ensure shops_vendeur dans votre server.cfg
+**sell_shops** est une ressource simple, efficace et totalement compatible **FiveM ESX Legacy**, permettant aux joueurs de **vendre des objets** à des points de vente configurables. Elle utilise **ESX**, **OX Inventory** et **RageUI** pour une intégration fluide.
 
-Utilisation
+🔗 **Rejoignez notre Discord pour du support ou suivre les mises à jour** : [ICI](https://discord.gg/TksepNQBU4)
 
-Pour les administrateurs:
+---
 
-Utilisez la commande /createshop pour ouvrir le menu admin
-Vous pouvez créer de nouveaux points de vente
-Définir leur position
-Gérer les objets vendables à chaque point
+## 📦 Installation
 
-
-Pour les joueurs:
-
-Approchez-vous d'un point de vente créé par un admin
-Appuyez sur E pour interagir
-Sélectionnez l'objet que vous souhaitez vendre
-Choisissez la quantité et le type de paiement (propre ou sale)
+1. Créez un dossier nommé `sell_shops` dans votre dossier `resources`
+2. Copiez tous les fichiers fournis dans ce dossier
+3. Téléchargez **RageUI** et placez-le dans `sell_shops`
+4. Créez un dossier `data` dans `sell_shops`
+5. Ajoutez la ligne suivante dans votre `server.cfg` :
+   ```bash
+   ensure sell_shops
+   ```
 
 
+---
 
-Personnalisation
-Vous pouvez personnaliser la ressource en modifiant le fichier config.lua:
+## 🛠️ Utilisation
 
-Ajoutez/modifiez les objets vendables avec leurs prix
-Changez l'apparence du blip sur la carte
-Ajustez la distance d'interaction
-Modifiez les groupes admin autorisés à utiliser la commande
+### 👑 Pour les administrateurs
 
-Améliorations possibles
+* Tapez la commande `/createshop` pour ouvrir le menu d'administration
+* Créez des points de vente
+* Définissez leur position sur la carte
+* Configurez les objets vendables pour chaque point
 
-Ajouter des PNJ aux points de vente
-Implémenter un système de prix dynamiques
-Ajouter des restrictions horaires pour certains points de vente
-Intégrer des animations lors de la vente
-Ajouter un système de réputation qui affecte les prix
+### 👥 Pour les joueurs
 
-Cette ressource est minimaliste et facile à comprendre, tout en offrant les fonctionnalités demandées. Elle utilise ESX pour la gestion des joueurs, OX Inventory pour la gestion des objets, et RageUI pour créer une interface utilisateur agréable.
+* Approchez-vous d’un point de vente
+* Appuyez sur `E` pour interagir
+* Choisissez un objet à vendre
+* Définissez la quantité et le type de paiement (propre ou sale)
+
+---
+
+## ⚙️ Personnalisation
+
+Le fichier `config.lua` vous permet de :
+
+* Ajouter ou modifier des objets vendables et leurs prix
+* Modifier l’apparence des blips
+* Ajuster la distance d’interaction
+* Gérer les groupes admin autorisés à utiliser la commande
+
+---
+
+## 🚀 Améliorations futures (idées)
+
+* Ajout de PNJ sur les points de vente
+* Prix dynamiques selon l’offre et la demande
+* Restrictions horaires sur certains points
+* Animations lors des ventes
+* Système de réputation influençant les prix
+
+---
+
+## 🔧 Technologies utilisées
+
+* **ESX Legacy** (Framework principal)
+* **OX Inventory** (Gestion des objets)
+* **RageUI** (Interface utilisateur)
+
+---
+
+## 📈 référencement
+
+```
+
+fivem esx vente ressource point de vente shop npc rageui ox_inventory braquage roleplay serveur fivem français
+
+```
+
+---
+
+© Tous droits réservés - Développé avec ❤️ pour la communauté FiveM RP.
