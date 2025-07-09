@@ -1,0 +1,80 @@
+[
+    {
+        "items": {
+            "x_gold_necklace": {
+                "dirty_price": 160,
+                "price": 0,
+                "payment_type": 2
+            },
+            "diamond": {
+                "dirty_price": 960,
+                "price": 0,
+                "payment_type": 2
+            },
+            "weed_pooch": {
+                "dirty_price": 60,
+                "price": 0,
+                "payment_type": 2
+            },
+            "x_gold_ring": {
+                "dirty_price": 92,
+                "price": 0,
+                "payment_type": 2
+            },
+            "x_ring_silver": {
+                "dirty_price": 66,
+                "price": 0,
+                "payment_type": 2
+            },
+            "gold": {
+                "dirty_price": 110,
+                "price": 0,
+                "payment_type": 2
+            },
+            "x_antique_watch": {
+                "dirty_price": 212,
+                "price": 0,
+                "payment_type": 2
+            },
+
+             "gold_watch": {
+                "dirty_price": 210,
+                "price": 0,
+                "payment_type": 2
+            },
+             "ruby": {
+                "dirty_price": 605,
+                "price": 0,
+                "payment_type": 2
+            },
+             "emerald": {
+                "dirty_price": 1100,
+                "price": 0,
+                "payment_type": 2
+            },
+             "sapphire": {
+                "dirty_price": 1300,
+                "price": 0,
+                "payment_type": 2
+            },
+             "pearl_necklace": {
+                "dirty_price": 110,
+                "price": 0,
+                "payment_type": 2
+            }
+        },
+        "npc": {
+            "scenario": "WORLD_HUMAN_STAND_IMPATIENT",
+            "model": "s_f_y_shop_mid",
+            "heading": 86.87887573242188,
+            "enabled": true
+        },
+        "position": {
+            "x": 887.4633178710938,
+            "z": 39.21318054199219,
+            "y": -953.3128662109376
+        },
+        "showBlip": false,
+        "name": "Boutique Illégale"
+    }
+]
